@@ -41,3 +41,5 @@ find . -type f -regex '.*\.f\(ast\)?q\.gz' -exec sha256sum {} + > sha_checksums.
 echo "seqkit stats..."
 ## v1.5
 find . -type f -regex '.*\.f\(ast\)?q\.gz' -print0 | xargs -0 seqkit stats --all -j ${CPU_THREAD} > seqkit_stats.txt &
+wait
+echo "All Done!"

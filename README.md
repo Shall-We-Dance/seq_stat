@@ -59,8 +59,6 @@ sample4_1.fastq.gz      FASTQ   DNA     39,770,507      2,857,175,123  30     71
 
 This table includes key metrics such as read counts, base content, quality scores, and GC content.
 
----
-
 ## How to Verify Checksums
 
 After file compression and hash generation, you can verify the integrity of your `FASTQ` files using the following commands:

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ############################################
-#       NGS Data Stat Pipeline v1.5        #
+#       NGS Data Stat Pipeline v1.6        #
 #         Hongjiang Liu, 07/30/25          #
 ############################################
 
